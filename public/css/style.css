@@ -1,0 +1,15 @@
+i
+{
+    font-size: 15px;
+}
+
+.delete
+{
+    cursor: pointer;
+    color: red;
+}
+
+.product-img
+{
+    height: 500px;
+}
