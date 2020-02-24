@@ -6,6 +6,7 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
+use Illuminate\Support\Facades\Session;
 
 class HomeController extends Controller
 {
@@ -16,7 +17,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $products = Product::paginate(7);
+        $products = Product::paginate(11);
         $categories = Category::whereNull('category_id')->with('childrenCategories')->get();
         return view('home')->with(['products' => $products, 'categories' => $categories]);
     }
@@ -31,6 +32,12 @@ class HomeController extends Controller
     public function product(Product $product){
 
         return view('product')->with(['product' => $product]);
+
+    }
+
+    public function cart(){
+
+        return view('cart');
 
     }
 }

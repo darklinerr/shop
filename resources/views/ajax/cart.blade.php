@@ -1,4 +1,6 @@
-<div id="modal" class="container-fluid">
+
+<div id="modal" class="container">
+    <div class="title h1">Cart</div>
     @forelse($products as $product)
         <div class="row p-3">
             <div  class="img text-center col-3 py-5 bg-danger">

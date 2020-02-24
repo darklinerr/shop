@@ -14,6 +14,7 @@
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('category/{category}', 'HomeController@category')->name('category');
 Route::get('product/{product}', 'HomeController@product')->name('product');
+Route::get('cart', 'HomeController@cart')->name('cart');
 
 Auth::routes();
 

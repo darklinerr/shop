@@ -42,8 +42,8 @@
                         </li>
                     @endif
                 @else
-
-                    <button type="button" v-on:click="showCart()" class="btn btn-light" data-toggle="modal" data-target=".bd-example-modal-lg"><i style="font-size: 17px;" class="fas fa-shopping-cart"></i></button>
+                    <a href="{{ route('cart') }}" class="btn btn-light"><i style="font-size: 17px;" class="fas fa-shopping-cart"></i></a>
+                    {{--<button type="button" v-on:click="showCart()" class="btn btn-light"><i style="font-size: 17px;" class="fas fa-shopping-cart"></i></button>--}}
 
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
@@ -74,7 +74,7 @@
     </nav>
 
 
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    {{--<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
          aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -91,13 +91,13 @@
                     </div>
 
 
-                {{--<div class="modal-footer">
+                <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>
-                </div>--}}
+                </div>
             </div>
         </div>
-    </div>
+    </div>--}}
     @yield('content')
 </div>
 
