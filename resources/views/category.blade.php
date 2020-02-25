@@ -15,7 +15,7 @@
                                     </div>
                                 </div>
                                 <div class="row px-3">
-                                    <div class="name h5 py-2">{{ $product->name }}</div>
+                                    <div class="name h5 py-2"><a href="{{ route('product', $product->id) }}">{{ $product->name }}</a></div>
                                 </div>
                                 <div class="row px-3">
                                     <div class="name h3">{{ number_format($product->price, 2, '.', '.')  }}$</div>
@@ -43,8 +43,8 @@
             <div class="categories col-3">
                 <div class="list-group">
                     @foreach($categories as $cat)
-{{--                        <a href="{{ route('category', $cat->id) }}" class="list-group-item list-group-item-action">{{ $cat->name }}</a>--}}
-                        <div class="list-group-item list-group-item-action h3 m-0">{{ $cat->name }}</div>
+                        <a href="{{ route('category', $cat->id) }}" class="list-group-item h3 m-0 list-group-item-action">{{ $cat->name }}</a>
+{{--                        <div class="list-group-item list-group-item-action h3 m-0">{{ $cat->name }}</div>--}}
                         @foreach($cat->childrenCategories as $childCategory)
                             @include('components.child_category', ['child_category' => $childCategory])
                         @endforeach

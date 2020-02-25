@@ -182,6 +182,126 @@ class ProductsSeeder extends Seeder
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
+            [
+                'name' => 'Fly Life Compact Dark Blue',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 999,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Huawei P30 Lite 4/128GB Peacock Blue',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 6499,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Acer Aspire 5 A515-54G',
+                'category_id' => 1,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 14999,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'HP Pavilion Gaming 15-cx0028ua',
+                'category_id' => 1,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 19499,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'HP Pavilion Gaming 15-cx0031ua',
+                'category_id' => 1,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 19999,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Dell Inspiron 3593',
+                'category_id' => 1,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 15399,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Dell Vostro 15 5590',
+                'category_id' => 1,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 18499,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Nokia 4.2 Dual Sim 3/32GB TA-1157 Black',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 18499,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Sigma mobile X-treme PQ39 MAX Black',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 6227,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Ulefone Armor 7 8/128GB Black',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 9999,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Motorola One Macro 4/64GB XT2016-1 Ultra Violet',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 3999,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Prestigio SmartBook 141 С3',
+                'category_id' => 1,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 4199,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Acer Aspire 5 A517-51G-56G2',
+                'category_id' => 1,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 14499,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Sigma mobile X-treme PQ29 Black-Orange',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 3759,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'name' => 'Blackview A60 Pro 3/16GB Red',
+                'category_id' => 2,
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis harum inventore non nostrum quae quo rerum soluta unde vel! Accusamus aliquam animi assumenda atque consequuntur corporis culpa dolore enim et eum eveniet ex excepturi explicabo facere fugiat iure iusto labore laboriosam libero nam obcaecati officiis pariatur provident quam, quas quis quos rem, repudiandae saepe sequi soluta suscipit tempora tempore temporibus ullam ut vero. Eum sint, vel! Ab accusamus accusantium ad aliquid assumenda autem dignissimos esse ex exercitationem explicabo facilis fugit id itaque iusto odit perspiciatis porro, praesentium quibusdam quidem quis quisquam rem rerum sunt tempore temporibus veritatis voluptatum. Nesciunt!',
+                'price' => 2299,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
 
         ]);
     }

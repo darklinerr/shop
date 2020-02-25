@@ -44,8 +44,8 @@
         <div class="categories col-3">
             <div class="list-group">
                 @foreach($categories as $cat)
-{{--                    <a href="{{ route('category', $cat->id) }}" class="list-group-item list-group-item-action">{{ $cat->name }}</a>--}}
-                    <div class="list-group-item list-group-item-action h3 m-0">{{ $cat->name }}</div>
+                    <a href="{{ route('category', $cat->id) }}" class="list-group-item h3 m-0 list-group-item-action">{{ $cat->name }}</a>
+{{--                    <div class="list-group-item list-group-item-action h3 m-0">{{ $cat->name }}</div>--}}
                     @foreach($cat->childrenCategories as $childCategory)
                         @include('components.child_category', ['child_category' => $childCategory])
                     @endforeach

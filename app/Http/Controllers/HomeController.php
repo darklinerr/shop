@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use DemeterChain\C;
+use Illuminate\Support\Collection;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
@@ -17,7 +19,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $products = Product::paginate(11);
+
+        $categories = Category::WhereNull('category_id')->pluck('id');
+
+        $products = Product::whereIn('category_id', $categories)->paginate(11);
+
         $categories = Category::whereNull('category_id')->with('childrenCategories')->get();
         return view('home')->with(['products' => $products, 'categories' => $categories]);
     }
