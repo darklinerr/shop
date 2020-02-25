@@ -4,6 +4,9 @@
 
     <div class="container">
         <div class="row">
+            <div class="title col-12 h1">{{ $category->name }}</div>
+        </div>
+        <div class="row">
             <div class="products col-9">
                 <div class="row p-3">
                     @forelse($products as $product)
@@ -50,9 +53,11 @@
                         @endforeach
                     @endforeach
                 </div>
-
             </div>
+        </div>
+        <div class="row mt-5">
+            <div class="h1">Description</div>
+            <div class="col-12">{{ $category->description }}</div>
         </div>
     </div>
 @endsection
-

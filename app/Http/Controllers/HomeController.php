@@ -31,7 +31,7 @@ class HomeController extends Controller
     public function category(Category $category){
 
         $categories = Category::whereNull('category_id')->with('childrenCategories')->get();
-        return view('category')->with(['products' => $category->products()->paginate(3), 'categories' => $categories]);
+        return view('category')->with(['products' => $category->products()->paginate(3), 'categories' => $categories, 'category' => $category]);
 
     }
 
